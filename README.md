@@ -1,69 +1,32 @@
-# Markdown syntax guide
+# Titulo  =  h1
 
-## Headers
+## Titulo 2 = h2
 
-# This is a Heading h1
-## This is a Heading h2
-###### This is a Heading h6
+**Mi texto en negrita  = b ** 
 
-## Emphasis
+*Letra italica  = i*
 
-*This text will be italic*  
-_This will also be italic_
+~Este texto ya no sirve~
 
-**This text will be bold**  
-__This will also be bold__
+~~Este texto ya no sirve~~
 
-_You **can** combine them_
+## Receta del ceviche
+- Limon
+- Pescado
+- Aji limo
+- Hielo
 
-## Lists
+## Pasos para prepar el ceviche
+1. Cortar el limon.
+2. Cortar el pescado.
+3. Bañar el pescado en limon.
+4. Combinar el limon exprimido con el pescado y un poco de hielo.
+5. Agregar aji limo.
 
-### Unordered
+[Linkedin](https://www.linkedin.com/in/arnoldgallegos/)
 
-* Item 1
-* Item 2
-* Item 2a
-* Item 2b
-    * Item 3a
-    * Item 3b
+![Ceviche](https://cdn0.recetasgratis.net/es/posts/7/4/1/ceviche_peruano_18147_orig.jpg)
 
-### Ordered
+<h2>Este es un titulo usando HTML </h2>
 
-1. Item 1
-2. Item 2
-3. Item 3
-    1. Item 3a
-    2. Item 3b
-
-## Images
-
-![This is an alt text.](/image/sample.webp "This is a sample image.")
-
-## Links
-
-You may be using [Markdown Live Preview](https://markdownlivepreview.com/).
-
-## Blockquotes
-
-> Markdown is a lightweight markup language with plain-text-formatting syntax, created in 2004 by John Gruber with Aaron Swartz.
->
->> Markdown is often used to format readme files, for writing messages in online discussion forums, and to create rich text using a plain text editor.
-
-## Tables
-
-| Left columns  | Right columns |
-| ------------- |:-------------:|
-| left foo      | right foo     |
-| left bar      | right bar     |
-| left baz      | right baz     |
-
-## Blocks of code
-
-```
-let message = 'Hello world';
-alert(message);
-```
-
-## Inline code
-
-This web site is using `markedjs/marked`.
+<img src="https://cdn0.recetasgratis.net/es/posts/7/4/1/ceviche_peruano_18147_orig.jpg" alt="Ceviche" width="350" />
